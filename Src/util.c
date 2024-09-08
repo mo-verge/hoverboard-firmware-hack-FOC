@@ -976,7 +976,7 @@ void handleTimeout(void) {
         #endif
       }
       #if (defined(CONTROL_SERIAL_USART2) && CONTROL_SERIAL_USART2 == 0) || (defined(SIDEBOARD_SERIAL_USART2) && SIDEBOARD_SERIAL_USART2 == 0 && !defined(VARIANT_HOVERBOARD))
-        timeoutFlgSerial = timeoutFlgSerial_L;          // Report Timeout only on the Primary Input
+        /*timeoutFlgSerial = timeoutFlgSerial_L;          // Report Timeout only on the Primary Input*/
       #endif
     #endif
 
